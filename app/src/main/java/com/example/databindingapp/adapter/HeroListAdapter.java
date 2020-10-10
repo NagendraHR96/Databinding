@@ -4,15 +4,12 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.databindingapp.R;
 import com.example.databindingapp.databinding.ListBinding;
 import com.example.databindingapp.model.Hero;
-
 import java.util.List;
 
 public class HeroListAdapter extends RecyclerView.Adapter<HeroListAdapter.HeroListHolder> {
